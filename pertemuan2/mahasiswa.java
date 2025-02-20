@@ -20,6 +20,7 @@ class Mahasiswa1{
 
 public class mahasiswa {
     public static void main(String[] args) {
+        
         Mahasiswa1 mhs1 =  new Mahasiswa1("Angga", 2313231);
         Mahasiswa1 mhs2 =  new Mahasiswa1("Yuda", 2313230);
 
