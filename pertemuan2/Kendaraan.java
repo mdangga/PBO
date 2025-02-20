@@ -36,6 +36,7 @@ class Vehicle{
 }
 public class Kendaraan {
     public static void main(String[] args) {
+        
         Vehicle honda = new Vehicle("honda", "mobil", 90);
         Vehicle toyota = new Vehicle("toyota", "mobil", 90);
         Vehicle yamaha = new Vehicle("yamaha", "motor", 60);
