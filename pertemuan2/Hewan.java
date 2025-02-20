@@ -38,12 +38,7 @@ class Animal {
 
 public class Hewan {
     public static void main(String[] args) {
-//        mahasiswa mhs1 =  new mahasiswa("Angga", 2313231);
-//        mahasiswa mhs2 =  new mahasiswa("Yuda", 2313230);
-//
-//        mhs1.tampilkanInfo();
-//        mhs2.tampilkanInfo();
-
+        
         Animal kucing = new Animal("kucing", "mamalia", 3);
         Animal anjing = new Animal("anjing", "mamalia", 3);
         Animal ular = new Animal("ular", "reptil", 1);
