@@ -1,17 +1,19 @@
+package pertemuan2;
+
 class Animal {
-    //    attribute
+//  attribute
     String nama;
     String jenis;
     int umur;
 
-    //    constructure
+//  constructor
     Animal(String nama, String jenis, int umur){
         this.nama = nama;
         this.jenis = jenis;
         this.umur = umur;
     }
 
-    //    method
+//  method
     void tampilkanInfo(){
         System.out.println("Nama: " + nama + ", Jenis: " + jenis + ", Umur: " + umur);
     }

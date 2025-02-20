@@ -1,9 +1,11 @@
+package pertemuan2;
+
 class Mahasiswa1{
 //    attribute
     String nama;
     long nim;
 
-//    constructure
+//    constructor
     Mahasiswa1(String nama, int nim){
         this.nama = nama;
         this.nim = nim;
