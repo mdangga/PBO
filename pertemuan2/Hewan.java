@@ -38,10 +38,7 @@ class Animal {
 
 public class Hewan {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        
-=======
->>>>>>> 78b20b9 (pertemuan3)
+
         Animal kucing = new Animal("kucing", "mamalia", 3);
         Animal anjing = new Animal("anjing", "mamalia", 3);
         Animal ular = new Animal("ular", "reptil", 1);
