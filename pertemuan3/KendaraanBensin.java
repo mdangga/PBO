@@ -55,3 +55,36 @@ class sepedaMotor extends AbsKendaraan{
         System.out.println(merk+ " " +nama + " bergerak dengan " + jumlahRoda + " roda yang ditenagai dari mesin bensin");
     }
 }
+
+public class KendaraanBensin {
+    public static void main(String[] args) {
+        mobil rush = new mobil("Toyota","Rush");
+        mobil raptor = new mobil("Ford","F150 Raptor R 6x6", 6);
+        sepedaMotor beat = new sepedaMotor("Honda","Beat");
+        sepedaMotor niken = new sepedaMotor("Yamaha","Niken GT", 3);
+
+        rush.infoKendaraan();
+        System.out.println();
+        rush.bergerak();
+
+        System.out.println();
+
+        raptor.infoKendaraan();
+        System.out.println();
+        raptor.bergerak();
+
+        System.out.println();
+
+        beat.infoKendaraan();
+        System.out.println();
+        beat.bergerak();
+
+        System.out.println();
+
+        niken.infoKendaraan();
+        System.out.println();
+        niken.bergerak();
+
+        System.out.println("====================================");
+    }
+}

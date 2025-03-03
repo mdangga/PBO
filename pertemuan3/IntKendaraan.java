@@ -1,12 +1,12 @@
 package pertemuan3;
 
-interface IntKendaraan {
+interface InKendaraan {
     //    method
     void bergerak();
     void isiDaya();
 }
 
-class mobilListrik implements IntKendaraan{
+class mobilListrik implements InKendaraan{
     private String merk;
     private String nama;
     private int jumlahRoda = 4; // Default jumlah roda
@@ -25,5 +25,20 @@ class mobilListrik implements IntKendaraan{
     @Override
     public void isiDaya() {
         System.out.println(merk+ " " +nama + " sedang diisi daya.");
+    }
+}
+
+public class IntKendaraan {
+    public static void main(String[] args) {
+        mobilListrik model3 = new mobilListrik("tesla", "Model 3");
+        mobilListrik seal = new mobilListrik("BYD", "seal");
+
+        model3.bergerak();
+        model3.isiDaya();
+
+        System.out.println();
+
+        seal.bergerak();
+        seal.isiDaya();
     }
 }
