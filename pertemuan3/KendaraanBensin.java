@@ -58,10 +58,10 @@ class sepedaMotor extends AbsKendaraan{
 
 public class KendaraanBensin {
     public static void main(String[] args) {
-        mobil rush = new mobil("Toyota","Rush");
-        mobil raptor = new mobil("Ford","F150 Raptor R 6x6", 6);
-        sepedaMotor beat = new sepedaMotor("Honda","Beat");
-        sepedaMotor niken = new sepedaMotor("Yamaha","Niken GT", 3);
+        AbsKendaraan rush = new mobil("Toyota","Rush");
+        AbsKendaraan raptor = new mobil("Ford","F150 Raptor R 6x6", 6);
+        AbsKendaraan beat = new sepedaMotor("Honda","Beat");
+        AbsKendaraan niken = new sepedaMotor("Yamaha","Niken GT", 3);
 
         rush.infoKendaraan();
         System.out.println();

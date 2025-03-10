@@ -30,8 +30,8 @@ class mobilListrik implements InKendaraan{
 
 public class IntKendaraan {
     public static void main(String[] args) {
-        mobilListrik model3 = new mobilListrik("tesla", "Model 3");
-        mobilListrik seal = new mobilListrik("BYD", "seal");
+        InKendaraan model3 = new mobilListrik("tesla", "Model 3");
+        InKendaraan seal = new mobilListrik("BYD", "seal");
 
         model3.bergerak();
         model3.isiDaya();
