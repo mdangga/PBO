@@ -32,7 +32,8 @@ class Mahasiswa{
 }
 public class Latihan1 {
     public static void main(String[] args) {
-        Mahasiswa mhs = new Mahasiswa("Angga", 19);
+        
+        Mahasiswa mhs = new Mahasiswa("angga", 19);
 
 //        mengakses menggunakan getter
         System.out.println("Nama: " + mhs.getNama());
