@@ -32,16 +32,11 @@ public class Soal4 {
                         System.out.print("Masukkan nomor tugas yang ingin diedit: ");
                         int index = input.nextInt();
                         input.nextLine();
-
-                        if ((index - 1) < daftarTugas.size()) {
-                            System.out.print("masukkan tugas untuk nomor " + index + ": ");
-                            daftarTugas.set(index - 1, input.nextLine());
-        
-                            System.out.println("Tugas berhasil diedit");
-                        }else{
-                            System.out.println("Tidak ada antrian tugas yang bernomor " + index);
-                        }
     
+                        System.out.print("masukkan tugas untuk nomor " + index + ": ");
+                        daftarTugas.set(index - 1, input.nextLine());
+    
+                        System.out.println("Tugas berhasil diedit");
                     }else{
                         System.out.println("tidak ada yang bisa diedit, daftar masih kosong");
                     }
@@ -88,6 +83,5 @@ public class Soal4 {
             }
         }
 
-        input.close();
     }
 }
