@@ -5,7 +5,7 @@ public class Soal3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random shuffle = new Random();
-        int target = shuffle.nextInt(100);
+        int target = shuffle.nextInt(100)+1;
         int percobaan = 0;
 
         System.out.println("Selamat datang di permainan Tebak Angka!");
